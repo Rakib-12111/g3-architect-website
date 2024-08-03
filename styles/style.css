@@ -6,3 +6,86 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.bg-light{
+  background-color: #FFF4E6;
+}
+.btn-primary{
+  background-color: #FF900E;
+  color: white ;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  /* width: 180px;
+height: 64px; */
+}
+/* shared style */
+.display-flex{
+  display: flex;
+}
+/* dark02 */
+.text-gray{
+  color: #424242;
+}
+/* dark03 */
+.text-light-gray{
+
+  color: #727272;
+}
+
+/* header style */
+
+
+/* navbar relative style */
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand{
+  font-weight: 700px;
+  font-size: 3rem;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 40px;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-weight: 500px;
+}
+
+.navbar,.banner{
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+/* banner-relative-style */
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.banner-title{
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.banner-discription{
+  font-weight: 400px;
+  font-size: 16px;
+}
+.banner-image{
+  width: 100%;
+}
+
+/* responsive media query */
+@media screen and (max-width:576px ) {
+  .navbar,.nav-links{
+    flex-direction: column;
+  }
+}
